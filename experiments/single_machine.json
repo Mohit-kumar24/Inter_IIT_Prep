@@ -1,0 +1,125 @@
+{
+    "metadata": {
+        "instance_name": "single_machine",
+        "num_jobs": 5,
+        "num_machines": 1,
+        "description": "Hand-built edge case: single_machine"
+    },
+    "jobs": [
+        {
+            "job_id": "J_01",
+            "operations": [
+                {
+                    "op_id": "J_01_O_01",
+                    "eligible_machines": [
+                        {
+                            "machine_id": "M_1",
+                            "processing_time": 10
+                        }
+                    ]
+                },
+                {
+                    "op_id": "J_01_O_02",
+                    "eligible_machines": [
+                        {
+                            "machine_id": "M_1",
+                            "processing_time": 15
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "job_id": "J_02",
+            "operations": [
+                {
+                    "op_id": "J_02_O_01",
+                    "eligible_machines": [
+                        {
+                            "machine_id": "M_1",
+                            "processing_time": 10
+                        }
+                    ]
+                },
+                {
+                    "op_id": "J_02_O_02",
+                    "eligible_machines": [
+                        {
+                            "machine_id": "M_1",
+                            "processing_time": 15
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "job_id": "J_03",
+            "operations": [
+                {
+                    "op_id": "J_03_O_01",
+                    "eligible_machines": [
+                        {
+                            "machine_id": "M_1",
+                            "processing_time": 10
+                        }
+                    ]
+                },
+                {
+                    "op_id": "J_03_O_02",
+                    "eligible_machines": [
+                        {
+                            "machine_id": "M_1",
+                            "processing_time": 15
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "job_id": "J_04",
+            "operations": [
+                {
+                    "op_id": "J_04_O_01",
+                    "eligible_machines": [
+                        {
+                            "machine_id": "M_1",
+                            "processing_time": 10
+                        }
+                    ]
+                },
+                {
+                    "op_id": "J_04_O_02",
+                    "eligible_machines": [
+                        {
+                            "machine_id": "M_1",
+                            "processing_time": 15
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "job_id": "J_05",
+            "operations": [
+                {
+                    "op_id": "J_05_O_01",
+                    "eligible_machines": [
+                        {
+                            "machine_id": "M_1",
+                            "processing_time": 10
+                        }
+                    ]
+                },
+                {
+                    "op_id": "J_05_O_02",
+                    "eligible_machines": [
+                        {
+                            "machine_id": "M_1",
+                            "processing_time": 15
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

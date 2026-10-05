@@ -1,0 +1,1272 @@
+{
+  "metadata": {
+    "num_jobs": 20,
+    "num_machines": 8,
+    "total_ops": 137,
+    "max_ops_in_job": 14,
+    "seed": 3,
+    "instance_class": "hard",
+    "generator_version": "gen_core_v1",
+    "pt_distribution": "lognormal",
+    "parameters": {
+      "advantage_probability": "0.250000",
+      "advantage_strength": "0.250000",
+      "bottleneck_probability": "0.300000",
+      "bottleneck_strength": "0.400000",
+      "flex_variance": "0.150000",
+      "flexibility": "0.250000",
+      "job_weight_variance": "0.500000",
+      "noise_level": "0.080000",
+      "num_bottleneck_machines": "2",
+      "num_jobs": "20",
+      "num_machines": "8",
+      "ops_per_job_max": "15",
+      "ops_per_job_mean": "7.000000",
+      "pt_distribution": "lognormal",
+      "pt_max": "60",
+      "pt_min": "1",
+      "pt_variance": "0.800000"
+    },
+    "machine_roles": {
+      "bottleneck_machines": ["M_5", "M_3"],
+      "specialist_machines": ["M_5", "M_4"]
+    }
+  },
+  "jobs": [
+    {
+      "job_id": "J_01",
+      "weight_class": 0,
+      "num_operations": 6,
+      "operations": [
+        {
+          "op_id": "O_01_01",
+          "num_eligible": 1,
+          "eligible_machines": [
+            {"machine_id": "M_4", "processing_time": 10}
+          ]
+        },
+        {
+          "op_id": "O_01_02",
+          "num_eligible": 2,
+          "eligible_machines": [
+            {"machine_id": "M_1", "processing_time": 60},
+            {"machine_id": "M_6", "processing_time": 60}
+          ]
+        },
+        {
+          "op_id": "O_01_03",
+          "num_eligible": 3,
+          "eligible_machines": [
+            {"machine_id": "M_1", "processing_time": 2},
+            {"machine_id": "M_5", "processing_time": 8},
+            {"machine_id": "M_8", "processing_time": 19}
+          ]
+        },
+        {
+          "op_id": "O_01_04",
+          "num_eligible": 1,
+          "eligible_machines": [
+            {"machine_id": "M_3", "processing_time": 5}
+          ]
+        },
+        {
+          "op_id": "O_01_05",
+          "num_eligible": 1,
+          "eligible_machines": [
+            {"machine_id": "M_5", "processing_time": 18}
+          ]
+        },
+        {
+          "op_id": "O_01_06",
+          "num_eligible": 1,
+          "eligible_machines": [
+            {"machine_id": "M_5", "processing_time": 6}
+          ]
+        }
+      ]
+    },
+    {
+      "job_id": "J_02",
+      "weight_class": 0,
+      "num_operations": 3,
+      "operations": [
+        {
+          "op_id": "O_02_01",
+          "num_eligible": 2,
+          "eligible_machines": [
+            {"machine_id": "M_4", "processing_time": 59},
+            {"machine_id": "M_5", "processing_time": 15}
+          ]
+        },
+        {
+          "op_id": "O_02_02",
+          "num_eligible": 4,
+          "eligible_machines": [
+            {"machine_id": "M_3", "processing_time": 21},
+            {"machine_id": "M_5", "processing_time": 10},
+            {"machine_id": "M_6", "processing_time": 31},
+            {"machine_id": "M_7", "processing_time": 27}
+          ]
+        },
+        {
+          "op_id": "O_02_03",
+          "num_eligible": 1,
+          "eligible_machines": [
+            {"machine_id": "M_7", "processing_time": 60}
+          ]
+        }
+      ]
+    },
+    {
+      "job_id": "J_03",
+      "weight_class": 1,
+      "num_operations": 5,
+      "operations": [
+        {
+          "op_id": "O_03_01",
+          "num_eligible": 3,
+          "eligible_machines": [
+            {"machine_id": "M_2", "processing_time": 20},
+            {"machine_id": "M_4", "processing_time": 60},
+            {"machine_id": "M_5", "processing_time": 23}
+          ]
+        },
+        {
+          "op_id": "O_03_02",
+          "num_eligible": 2,
+          "eligible_machines": [
+            {"machine_id": "M_1", "processing_time": 21},
+            {"machine_id": "M_7", "processing_time": 20}
+          ]
+        },
+        {
+          "op_id": "O_03_03",
+          "num_eligible": 2,
+          "eligible_machines": [
+            {"machine_id": "M_1", "processing_time": 47},
+            {"machine_id": "M_6", "processing_time": 60}
+          ]
+        },
+        {
+          "op_id": "O_03_04",
+          "num_eligible": 1,
+          "eligible_machines": [
+            {"machine_id": "M_5", "processing_time": 16}
+          ]
+        },
+        {
+          "op_id": "O_03_05",
+          "num_eligible": 3,
+          "eligible_machines": [
+            {"machine_id": "M_1", "processing_time": 60},
+            {"machine_id": "M_6", "processing_time": 32},
+            {"machine_id": "M_7", "processing_time": 37}
+          ]
+        }
+      ]
+    },
+    {
+      "job_id": "J_04",
+      "weight_class": 0,
+      "num_operations": 4,
+      "operations": [
+        {
+          "op_id": "O_04_01",
+          "num_eligible": 2,
+          "eligible_machines": [
+            {"machine_id": "M_3", "processing_time": 25},
+            {"machine_id": "M_7", "processing_time": 20}
+          ]
+        },
+        {
+          "op_id": "O_04_02",
+          "num_eligible": 2,
+          "eligible_machines": [
+            {"machine_id": "M_2", "processing_time": 46},
+            {"machine_id": "M_3", "processing_time": 3}
+          ]
+        },
+        {
+          "op_id": "O_04_03",
+          "num_eligible": 3,
+          "eligible_machines": [
+            {"machine_id": "M_2", "processing_time": 60},
+            {"machine_id": "M_3", "processing_time": 7},
+            {"machine_id": "M_5", "processing_time": 17}
+          ]
+        },
+        {
+          "op_id": "O_04_04",
+          "num_eligible": 2,
+          "eligible_machines": [
+            {"machine_id": "M_1", "processing_time": 36},
+            {"machine_id": "M_6", "processing_time": 40}
+          ]
+        }
+      ]
+    },
+    {
+      "job_id": "J_05",
+      "weight_class": 1,
+      "num_operations": 10,
+      "operations": [
+        {
+          "op_id": "O_05_01",
+          "num_eligible": 2,
+          "eligible_machines": [
+            {"machine_id": "M_3", "processing_time": 24},
+            {"machine_id": "M_5", "processing_time": 25}
+          ]
+        },
+        {
+          "op_id": "O_05_02",
+          "num_eligible": 2,
+          "eligible_machines": [
+            {"machine_id": "M_1", "processing_time": 21},
+            {"machine_id": "M_4", "processing_time": 60}
+          ]
+        },
+        {
+          "op_id": "O_05_03",
+          "num_eligible": 2,
+          "eligible_machines": [
+            {"machine_id": "M_3", "processing_time": 4},
+            {"machine_id": "M_6", "processing_time": 33}
+          ]
+        },
+        {
+          "op_id": "O_05_04",
+          "num_eligible": 2,
+          "eligible_machines": [
+            {"machine_id": "M_7", "processing_time": 39},
+            {"machine_id": "M_8", "processing_time": 17}
+          ]
+        },
+        {
+          "op_id": "O_05_05",
+          "num_eligible": 1,
+          "eligible_machines": [
+            {"machine_id": "M_4", "processing_time": 20}
+          ]
+        },
+        {
+          "op_id": "O_05_06",
+          "num_eligible": 2,
+          "eligible_machines": [
+            {"machine_id": "M_1", "processing_time": 21},
+            {"machine_id": "M_5", "processing_time": 7}
+          ]
+        },
+        {
+          "op_id": "O_05_07",
+          "num_eligible": 1,
+          "eligible_machines": [
+            {"machine_id": "M_3", "processing_time": 12}
+          ]
+        },
+        {
+          "op_id": "O_05_08",
+          "num_eligible": 2,
+          "eligible_machines": [
+            {"machine_id": "M_5", "processing_time": 30},
+            {"machine_id": "M_8", "processing_time": 43}
+          ]
+        },
+        {
+          "op_id": "O_05_09",
+          "num_eligible": 1,
+          "eligible_machines": [
+            {"machine_id": "M_5", "processing_time": 4}
+          ]
+        },
+        {
+          "op_id": "O_05_10",
+          "num_eligible": 3,
+          "eligible_machines": [
+            {"machine_id": "M_3", "processing_time": 22},
+            {"machine_id": "M_5", "processing_time": 8},
+            {"machine_id": "M_7", "processing_time": 15}
+          ]
+        }
+      ]
+    },
+    {
+      "job_id": "J_06",
+      "weight_class": -1,
+      "num_operations": 4,
+      "operations": [
+        {
+          "op_id": "O_06_01",
+          "num_eligible": 3,
+          "eligible_machines": [
+            {"machine_id": "M_1", "processing_time": 49},
+            {"machine_id": "M_6", "processing_time": 50},
+            {"machine_id": "M_7", "processing_time": 40}
+          ]
+        },
+        {
+          "op_id": "O_06_02",
+          "num_eligible": 3,
+          "eligible_machines": [
+            {"machine_id": "M_2", "processing_time": 12},
+            {"machine_id": "M_4", "processing_time": 35},
+            {"machine_id": "M_8", "processing_time": 7}
+          ]
+        },
+        {
+          "op_id": "O_06_03",
+          "num_eligible": 3,
+          "eligible_machines": [
+            {"machine_id": "M_2", "processing_time": 52},
+            {"machine_id": "M_4", "processing_time": 19},
+            {"machine_id": "M_5", "processing_time": 6}
+          ]
+        },
+        {
+          "op_id": "O_06_04",
+          "num_eligible": 2,
+          "eligible_machines": [
+            {"machine_id": "M_3", "processing_time": 24},
+            {"machine_id": "M_4", "processing_time": 15}
+          ]
+        }
+      ]
+    },
+    {
+      "job_id": "J_07",
+      "weight_class": -1,
+      "num_operations": 5,
+      "operations": [
+        {
+          "op_id": "O_07_01",
+          "num_eligible": 2,
+          "eligible_machines": [
+            {"machine_id": "M_2", "processing_time": 11},
+            {"machine_id": "M_3", "processing_time": 6}
+          ]
+        },
+        {
+          "op_id": "O_07_02",
+          "num_eligible": 2,
+          "eligible_machines": [
+            {"machine_id": "M_3", "processing_time": 5},
+            {"machine_id": "M_5", "processing_time": 7}
+          ]
+        },
+        {
+          "op_id": "O_07_03",
+          "num_eligible": 3,
+          "eligible_machines": [
+            {"machine_id": "M_3", "processing_time": 6},
+            {"machine_id": "M_5", "processing_time": 6},
+            {"machine_id": "M_6", "processing_time": 8}
+          ]
+        },
+        {
+          "op_id": "O_07_04",
+          "num_eligible": 2,
+          "eligible_machines": [
+            {"machine_id": "M_3", "processing_time": 24},
+            {"machine_id": "M_6", "processing_time": 17}
+          ]
+        },
+        {
+          "op_id": "O_07_05",
+          "num_eligible": 2,
+          "eligible_machines": [
+            {"machine_id": "M_1", "processing_time": 48},
+            {"machine_id": "M_4", "processing_time": 43}
+          ]
+        }
+      ]
+    },
+    {
+      "job_id": "J_08",
+      "weight_class": 0,
+      "num_operations": 10,
+      "operations": [
+        {
+          "op_id": "O_08_01",
+          "num_eligible": 2,
+          "eligible_machines": [
+            {"machine_id": "M_3", "processing_time": 23},
+            {"machine_id": "M_8", "processing_time": 60}
+          ]
+        },
+        {
+          "op_id": "O_08_02",
+          "num_eligible": 3,
+          "eligible_machines": [
+            {"machine_id": "M_2", "processing_time": 7},
+            {"machine_id": "M_6", "processing_time": 60},
+            {"machine_id": "M_8", "processing_time": 7}
+          ]
+        },
+        {
+          "op_id": "O_08_03",
+          "num_eligible": 1,
+          "eligible_machines": [
+            {"machine_id": "M_7", "processing_time": 14}
+          ]
+        },
+        {
+          "op_id": "O_08_04",
+          "num_eligible": 2,
+          "eligible_machines": [
+            {"machine_id": "M_4", "processing_time": 18},
+            {"machine_id": "M_6", "processing_time": 60}
+          ]
+        },
+        {
+          "op_id": "O_08_05",
+          "num_eligible": 1,
+          "eligible_machines": [
+            {"machine_id": "M_1", "processing_time": 60}
+          ]
+        },
+        {
+          "op_id": "O_08_06",
+          "num_eligible": 1,
+          "eligible_machines": [
+            {"machine_id": "M_5", "processing_time": 7}
+          ]
+        },
+        {
+          "op_id": "O_08_07",
+          "num_eligible": 2,
+          "eligible_machines": [
+            {"machine_id": "M_1", "processing_time": 11},
+            {"machine_id": "M_3", "processing_time": 4}
+          ]
+        },
+        {
+          "op_id": "O_08_08",
+          "num_eligible": 2,
+          "eligible_machines": [
+            {"machine_id": "M_2", "processing_time": 36},
+            {"machine_id": "M_8", "processing_time": 26}
+          ]
+        },
+        {
+          "op_id": "O_08_09",
+          "num_eligible": 3,
+          "eligible_machines": [
+            {"machine_id": "M_3", "processing_time": 7},
+            {"machine_id": "M_5", "processing_time": 12},
+            {"machine_id": "M_6", "processing_time": 22}
+          ]
+        },
+        {
+          "op_id": "O_08_10",
+          "num_eligible": 1,
+          "eligible_machines": [
+            {"machine_id": "M_2", "processing_time": 22}
+          ]
+        }
+      ]
+    },
+    {
+      "job_id": "J_09",
+      "weight_class": 0,
+      "num_operations": 9,
+      "operations": [
+        {
+          "op_id": "O_09_01",
+          "num_eligible": 1,
+          "eligible_machines": [
+            {"machine_id": "M_5", "processing_time": 2}
+          ]
+        },
+        {
+          "op_id": "O_09_02",
+          "num_eligible": 3,
+          "eligible_machines": [
+            {"machine_id": "M_1", "processing_time": 16},
+            {"machine_id": "M_3", "processing_time": 12},
+            {"machine_id": "M_6", "processing_time": 15}
+          ]
+        },
+        {
+          "op_id": "O_09_03",
+          "num_eligible": 1,
+          "eligible_machines": [
+            {"machine_id": "M_1", "processing_time": 9}
+          ]
+        },
+        {
+          "op_id": "O_09_04",
+          "num_eligible": 1,
+          "eligible_machines": [
+            {"machine_id": "M_8", "processing_time": 42}
+          ]
+        },
+        {
+          "op_id": "O_09_05",
+          "num_eligible": 2,
+          "eligible_machines": [
+            {"machine_id": "M_6", "processing_time": 45},
+            {"machine_id": "M_7", "processing_time": 28}
+          ]
+        },
+        {
+          "op_id": "O_09_06",
+          "num_eligible": 1,
+          "eligible_machines": [
+            {"machine_id": "M_7", "processing_time": 14}
+          ]
+        },
+        {
+          "op_id": "O_09_07",
+          "num_eligible": 1,
+          "eligible_machines": [
+            {"machine_id": "M_6", "processing_time": 60}
+          ]
+        },
+        {
+          "op_id": "O_09_08",
+          "num_eligible": 3,
+          "eligible_machines": [
+            {"machine_id": "M_1", "processing_time": 10},
+            {"machine_id": "M_3", "processing_time": 5},
+            {"machine_id": "M_5", "processing_time": 20}
+          ]
+        },
+        {
+          "op_id": "O_09_09",
+          "num_eligible": 1,
+          "eligible_machines": [
+            {"machine_id": "M_6", "processing_time": 60}
+          ]
+        }
+      ]
+    },
+    {
+      "job_id": "J_10",
+      "weight_class": 1,
+      "num_operations": 7,
+      "operations": [
+        {
+          "op_id": "O_10_01",
+          "num_eligible": 1,
+          "eligible_machines": [
+            {"machine_id": "M_5", "processing_time": 6}
+          ]
+        },
+        {
+          "op_id": "O_10_02",
+          "num_eligible": 1,
+          "eligible_machines": [
+            {"machine_id": "M_8", "processing_time": 6}
+          ]
+        },
+        {
+          "op_id": "O_10_03",
+          "num_eligible": 1,
+          "eligible_machines": [
+            {"machine_id": "M_8", "processing_time": 60}
+          ]
+        },
+        {
+          "op_id": "O_10_04",
+          "num_eligible": 1,
+          "eligible_machines": [
+            {"machine_id": "M_2", "processing_time": 60}
+          ]
+        },
+        {
+          "op_id": "O_10_05",
+          "num_eligible": 1,
+          "eligible_machines": [
+            {"machine_id": "M_6", "processing_time": 16}
+          ]
+        },
+        {
+          "op_id": "O_10_06",
+          "num_eligible": 3,
+          "eligible_machines": [
+            {"machine_id": "M_5", "processing_time": 11},
+            {"machine_id": "M_6", "processing_time": 60},
+            {"machine_id": "M_8", "processing_time": 22}
+          ]
+        },
+        {
+          "op_id": "O_10_07",
+          "num_eligible": 1,
+          "eligible_machines": [
+            {"machine_id": "M_6", "processing_time": 12}
+          ]
+        }
+      ]
+    },
+    {
+      "job_id": "J_11",
+      "weight_class": 0,
+      "num_operations": 11,
+      "operations": [
+        {
+          "op_id": "O_11_01",
+          "num_eligible": 3,
+          "eligible_machines": [
+            {"machine_id": "M_3", "processing_time": 24},
+            {"machine_id": "M_5", "processing_time": 4},
+            {"machine_id": "M_7", "processing_time": 20}
+          ]
+        },
+        {
+          "op_id": "O_11_02",
+          "num_eligible": 1,
+          "eligible_machines": [
+            {"machine_id": "M_5", "processing_time": 8}
+          ]
+        },
+        {
+          "op_id": "O_11_03",
+          "num_eligible": 3,
+          "eligible_machines": [
+            {"machine_id": "M_1", "processing_time": 41},
+            {"machine_id": "M_3", "processing_time": 13},
+            {"machine_id": "M_7", "processing_time": 21}
+          ]
+        },
+        {
+          "op_id": "O_11_04",
+          "num_eligible": 1,
+          "eligible_machines": [
+            {"machine_id": "M_4", "processing_time": 6}
+          ]
+        },
+        {
+          "op_id": "O_11_05",
+          "num_eligible": 3,
+          "eligible_machines": [
+            {"machine_id": "M_1", "processing_time": 60},
+            {"machine_id": "M_3", "processing_time": 24},
+            {"machine_id": "M_8", "processing_time": 17}
+          ]
+        },
+        {
+          "op_id": "O_11_06",
+          "num_eligible": 5,
+          "eligible_machines": [
+            {"machine_id": "M_2", "processing_time": 24},
+            {"machine_id": "M_3", "processing_time": 15},
+            {"machine_id": "M_4", "processing_time": 9},
+            {"machine_id": "M_6", "processing_time": 60},
+            {"machine_id": "M_8", "processing_time": 36}
+          ]
+        },
+        {
+          "op_id": "O_11_07",
+          "num_eligible": 2,
+          "eligible_machines": [
+            {"machine_id": "M_2", "processing_time": 45},
+            {"machine_id": "M_8", "processing_time": 5}
+          ]
+        },
+        {
+          "op_id": "O_11_08",
+          "num_eligible": 1,
+          "eligible_machines": [
+            {"machine_id": "M_3", "processing_time": 22}
+          ]
+        },
+        {
+          "op_id": "O_11_09",
+          "num_eligible": 2,
+          "eligible_machines": [
+            {"machine_id": "M_5", "processing_time": 18},
+            {"machine_id": "M_6", "processing_time": 10}
+          ]
+        },
+        {
+          "op_id": "O_11_10",
+          "num_eligible": 2,
+          "eligible_machines": [
+            {"machine_id": "M_2", "processing_time": 53},
+            {"machine_id": "M_4", "processing_time": 59}
+          ]
+        },
+        {
+          "op_id": "O_11_11",
+          "num_eligible": 2,
+          "eligible_machines": [
+            {"machine_id": "M_2", "processing_time": 21},
+            {"machine_id": "M_8", "processing_time": 6}
+          ]
+        }
+      ]
+    },
+    {
+      "job_id": "J_12",
+      "weight_class": -1,
+      "num_operations": 6,
+      "operations": [
+        {
+          "op_id": "O_12_01",
+          "num_eligible": 3,
+          "eligible_machines": [
+            {"machine_id": "M_2", "processing_time": 11},
+            {"machine_id": "M_3", "processing_time": 9},
+            {"machine_id": "M_4", "processing_time": 32}
+          ]
+        },
+        {
+          "op_id": "O_12_02",
+          "num_eligible": 2,
+          "eligible_machines": [
+            {"machine_id": "M_4", "processing_time": 49},
+            {"machine_id": "M_5", "processing_time": 13}
+          ]
+        },
+        {
+          "op_id": "O_12_03",
+          "num_eligible": 1,
+          "eligible_machines": [
+            {"machine_id": "M_5", "processing_time": 21}
+          ]
+        },
+        {
+          "op_id": "O_12_04",
+          "num_eligible": 3,
+          "eligible_machines": [
+            {"machine_id": "M_2", "processing_time": 13},
+            {"machine_id": "M_4", "processing_time": 15},
+            {"machine_id": "M_8", "processing_time": 12}
+          ]
+        },
+        {
+          "op_id": "O_12_05",
+          "num_eligible": 1,
+          "eligible_machines": [
+            {"machine_id": "M_4", "processing_time": 22}
+          ]
+        },
+        {
+          "op_id": "O_12_06",
+          "num_eligible": 4,
+          "eligible_machines": [
+            {"machine_id": "M_2", "processing_time": 57},
+            {"machine_id": "M_3", "processing_time": 25},
+            {"machine_id": "M_4", "processing_time": 20},
+            {"machine_id": "M_8", "processing_time": 47}
+          ]
+        }
+      ]
+    },
+    {
+      "job_id": "J_13",
+      "weight_class": 0,
+      "num_operations": 11,
+      "operations": [
+        {
+          "op_id": "O_13_01",
+          "num_eligible": 3,
+          "eligible_machines": [
+            {"machine_id": "M_1", "processing_time": 35},
+            {"machine_id": "M_4", "processing_time": 39},
+            {"machine_id": "M_5", "processing_time": 15}
+          ]
+        },
+        {
+          "op_id": "O_13_02",
+          "num_eligible": 1,
+          "eligible_machines": [
+            {"machine_id": "M_8", "processing_time": 29}
+          ]
+        },
+        {
+          "op_id": "O_13_03",
+          "num_eligible": 2,
+          "eligible_machines": [
+            {"machine_id": "M_5", "processing_time": 15},
+            {"machine_id": "M_7", "processing_time": 13}
+          ]
+        },
+        {
+          "op_id": "O_13_04",
+          "num_eligible": 2,
+          "eligible_machines": [
+            {"machine_id": "M_7", "processing_time": 60},
+            {"machine_id": "M_8", "processing_time": 9}
+          ]
+        },
+        {
+          "op_id": "O_13_05",
+          "num_eligible": 4,
+          "eligible_machines": [
+            {"machine_id": "M_4", "processing_time": 9},
+            {"machine_id": "M_5", "processing_time": 6},
+            {"machine_id": "M_7", "processing_time": 60},
+            {"machine_id": "M_8", "processing_time": 11}
+          ]
+        },
+        {
+          "op_id": "O_13_06",
+          "num_eligible": 1,
+          "eligible_machines": [
+            {"machine_id": "M_1", "processing_time": 18}
+          ]
+        },
+        {
+          "op_id": "O_13_07",
+          "num_eligible": 2,
+          "eligible_machines": [
+            {"machine_id": "M_3", "processing_time": 9},
+            {"machine_id": "M_5", "processing_time": 2}
+          ]
+        },
+        {
+          "op_id": "O_13_08",
+          "num_eligible": 3,
+          "eligible_machines": [
+            {"machine_id": "M_3", "processing_time": 5},
+            {"machine_id": "M_6", "processing_time": 15},
+            {"machine_id": "M_8", "processing_time": 17}
+          ]
+        },
+        {
+          "op_id": "O_13_09",
+          "num_eligible": 2,
+          "eligible_machines": [
+            {"machine_id": "M_3", "processing_time": 9},
+            {"machine_id": "M_5", "processing_time": 8}
+          ]
+        },
+        {
+          "op_id": "O_13_10",
+          "num_eligible": 3,
+          "eligible_machines": [
+            {"machine_id": "M_1", "processing_time": 55},
+            {"machine_id": "M_5", "processing_time": 10},
+            {"machine_id": "M_6", "processing_time": 26}
+          ]
+        },
+        {
+          "op_id": "O_13_11",
+          "num_eligible": 3,
+          "eligible_machines": [
+            {"machine_id": "M_1", "processing_time": 24},
+            {"machine_id": "M_3", "processing_time": 7},
+            {"machine_id": "M_6", "processing_time": 27}
+          ]
+        }
+      ]
+    },
+    {
+      "job_id": "J_14",
+      "weight_class": 1,
+      "num_operations": 6,
+      "operations": [
+        {
+          "op_id": "O_14_01",
+          "num_eligible": 1,
+          "eligible_machines": [
+            {"machine_id": "M_7", "processing_time": 40}
+          ]
+        },
+        {
+          "op_id": "O_14_02",
+          "num_eligible": 3,
+          "eligible_machines": [
+            {"machine_id": "M_3", "processing_time": 6},
+            {"machine_id": "M_4", "processing_time": 60},
+            {"machine_id": "M_5", "processing_time": 7}
+          ]
+        },
+        {
+          "op_id": "O_14_03",
+          "num_eligible": 3,
+          "eligible_machines": [
+            {"machine_id": "M_1", "processing_time": 60},
+            {"machine_id": "M_2", "processing_time": 30},
+            {"machine_id": "M_7", "processing_time": 60}
+          ]
+        },
+        {
+          "op_id": "O_14_04",
+          "num_eligible": 1,
+          "eligible_machines": [
+            {"machine_id": "M_8", "processing_time": 16}
+          ]
+        },
+        {
+          "op_id": "O_14_05",
+          "num_eligible": 1,
+          "eligible_machines": [
+            {"machine_id": "M_4", "processing_time": 20}
+          ]
+        },
+        {
+          "op_id": "O_14_06",
+          "num_eligible": 2,
+          "eligible_machines": [
+            {"machine_id": "M_3", "processing_time": 4},
+            {"machine_id": "M_8", "processing_time": 60}
+          ]
+        }
+      ]
+    },
+    {
+      "job_id": "J_15",
+      "weight_class": 1,
+      "num_operations": 14,
+      "operations": [
+        {
+          "op_id": "O_15_01",
+          "num_eligible": 3,
+          "eligible_machines": [
+            {"machine_id": "M_1", "processing_time": 24},
+            {"machine_id": "M_3", "processing_time": 21},
+            {"machine_id": "M_6", "processing_time": 35}
+          ]
+        },
+        {
+          "op_id": "O_15_02",
+          "num_eligible": 2,
+          "eligible_machines": [
+            {"machine_id": "M_1", "processing_time": 35},
+            {"machine_id": "M_2", "processing_time": 60}
+          ]
+        },
+        {
+          "op_id": "O_15_03",
+          "num_eligible": 2,
+          "eligible_machines": [
+            {"machine_id": "M_2", "processing_time": 31},
+            {"machine_id": "M_5", "processing_time": 12}
+          ]
+        },
+        {
+          "op_id": "O_15_04",
+          "num_eligible": 1,
+          "eligible_machines": [
+            {"machine_id": "M_7", "processing_time": 25}
+          ]
+        },
+        {
+          "op_id": "O_15_05",
+          "num_eligible": 3,
+          "eligible_machines": [
+            {"machine_id": "M_3", "processing_time": 20},
+            {"machine_id": "M_7", "processing_time": 38},
+            {"machine_id": "M_8", "processing_time": 60}
+          ]
+        },
+        {
+          "op_id": "O_15_06",
+          "num_eligible": 2,
+          "eligible_machines": [
+            {"machine_id": "M_4", "processing_time": 37},
+            {"machine_id": "M_8", "processing_time": 59}
+          ]
+        },
+        {
+          "op_id": "O_15_07",
+          "num_eligible": 1,
+          "eligible_machines": [
+            {"machine_id": "M_6", "processing_time": 60}
+          ]
+        },
+        {
+          "op_id": "O_15_08",
+          "num_eligible": 1,
+          "eligible_machines": [
+            {"machine_id": "M_2", "processing_time": 60}
+          ]
+        },
+        {
+          "op_id": "O_15_09",
+          "num_eligible": 1,
+          "eligible_machines": [
+            {"machine_id": "M_4", "processing_time": 60}
+          ]
+        },
+        {
+          "op_id": "O_15_10",
+          "num_eligible": 1,
+          "eligible_machines": [
+            {"machine_id": "M_1", "processing_time": 13}
+          ]
+        },
+        {
+          "op_id": "O_15_11",
+          "num_eligible": 4,
+          "eligible_machines": [
+            {"machine_id": "M_2", "processing_time": 30},
+            {"machine_id": "M_3", "processing_time": 5},
+            {"machine_id": "M_6", "processing_time": 33},
+            {"machine_id": "M_7", "processing_time": 27}
+          ]
+        },
+        {
+          "op_id": "O_15_12",
+          "num_eligible": 1,
+          "eligible_machines": [
+            {"machine_id": "M_1", "processing_time": 36}
+          ]
+        },
+        {
+          "op_id": "O_15_13",
+          "num_eligible": 1,
+          "eligible_machines": [
+            {"machine_id": "M_2", "processing_time": 37}
+          ]
+        },
+        {
+          "op_id": "O_15_14",
+          "num_eligible": 2,
+          "eligible_machines": [
+            {"machine_id": "M_4", "processing_time": 53},
+            {"machine_id": "M_5", "processing_time": 2}
+          ]
+        }
+      ]
+    },
+    {
+      "job_id": "J_16",
+      "weight_class": 0,
+      "num_operations": 7,
+      "operations": [
+        {
+          "op_id": "O_16_01",
+          "num_eligible": 1,
+          "eligible_machines": [
+            {"machine_id": "M_7", "processing_time": 43}
+          ]
+        },
+        {
+          "op_id": "O_16_02",
+          "num_eligible": 1,
+          "eligible_machines": [
+            {"machine_id": "M_8", "processing_time": 26}
+          ]
+        },
+        {
+          "op_id": "O_16_03",
+          "num_eligible": 2,
+          "eligible_machines": [
+            {"machine_id": "M_4", "processing_time": 12},
+            {"machine_id": "M_8", "processing_time": 55}
+          ]
+        },
+        {
+          "op_id": "O_16_04",
+          "num_eligible": 3,
+          "eligible_machines": [
+            {"machine_id": "M_1", "processing_time": 16},
+            {"machine_id": "M_4", "processing_time": 5},
+            {"machine_id": "M_8", "processing_time": 20}
+          ]
+        },
+        {
+          "op_id": "O_16_05",
+          "num_eligible": 1,
+          "eligible_machines": [
+            {"machine_id": "M_2", "processing_time": 5}
+          ]
+        },
+        {
+          "op_id": "O_16_06",
+          "num_eligible": 1,
+          "eligible_machines": [
+            {"machine_id": "M_3", "processing_time": 9}
+          ]
+        },
+        {
+          "op_id": "O_16_07",
+          "num_eligible": 2,
+          "eligible_machines": [
+            {"machine_id": "M_3", "processing_time": 29},
+            {"machine_id": "M_5", "processing_time": 19}
+          ]
+        }
+      ]
+    },
+    {
+      "job_id": "J_17",
+      "weight_class": 0,
+      "num_operations": 8,
+      "operations": [
+        {
+          "op_id": "O_17_01",
+          "num_eligible": 1,
+          "eligible_machines": [
+            {"machine_id": "M_2", "processing_time": 12}
+          ]
+        },
+        {
+          "op_id": "O_17_02",
+          "num_eligible": 2,
+          "eligible_machines": [
+            {"machine_id": "M_3", "processing_time": 16},
+            {"machine_id": "M_7", "processing_time": 47}
+          ]
+        },
+        {
+          "op_id": "O_17_03",
+          "num_eligible": 2,
+          "eligible_machines": [
+            {"machine_id": "M_5", "processing_time": 8},
+            {"machine_id": "M_8", "processing_time": 20}
+          ]
+        },
+        {
+          "op_id": "O_17_04",
+          "num_eligible": 1,
+          "eligible_machines": [
+            {"machine_id": "M_6", "processing_time": 44}
+          ]
+        },
+        {
+          "op_id": "O_17_05",
+          "num_eligible": 2,
+          "eligible_machines": [
+            {"machine_id": "M_3", "processing_time": 10},
+            {"machine_id": "M_6", "processing_time": 54}
+          ]
+        },
+        {
+          "op_id": "O_17_06",
+          "num_eligible": 2,
+          "eligible_machines": [
+            {"machine_id": "M_1", "processing_time": 20},
+            {"machine_id": "M_3", "processing_time": 17}
+          ]
+        },
+        {
+          "op_id": "O_17_07",
+          "num_eligible": 5,
+          "eligible_machines": [
+            {"machine_id": "M_2", "processing_time": 49},
+            {"machine_id": "M_4", "processing_time": 12},
+            {"machine_id": "M_5", "processing_time": 29},
+            {"machine_id": "M_7", "processing_time": 34},
+            {"machine_id": "M_8", "processing_time": 8}
+          ]
+        },
+        {
+          "op_id": "O_17_08",
+          "num_eligible": 2,
+          "eligible_machines": [
+            {"machine_id": "M_4", "processing_time": 15},
+            {"machine_id": "M_6", "processing_time": 60}
+          ]
+        }
+      ]
+    },
+    {
+      "job_id": "J_18",
+      "weight_class": -1,
+      "num_operations": 4,
+      "operations": [
+        {
+          "op_id": "O_18_01",
+          "num_eligible": 2,
+          "eligible_machines": [
+            {"machine_id": "M_1", "processing_time": 20},
+            {"machine_id": "M_3", "processing_time": 20}
+          ]
+        },
+        {
+          "op_id": "O_18_02",
+          "num_eligible": 4,
+          "eligible_machines": [
+            {"machine_id": "M_2", "processing_time": 55},
+            {"machine_id": "M_4", "processing_time": 32},
+            {"machine_id": "M_6", "processing_time": 8},
+            {"machine_id": "M_8", "processing_time": 50}
+          ]
+        },
+        {
+          "op_id": "O_18_03",
+          "num_eligible": 3,
+          "eligible_machines": [
+            {"machine_id": "M_1", "processing_time": 36},
+            {"machine_id": "M_3", "processing_time": 23},
+            {"machine_id": "M_5", "processing_time": 23}
+          ]
+        },
+        {
+          "op_id": "O_18_04",
+          "num_eligible": 2,
+          "eligible_machines": [
+            {"machine_id": "M_3", "processing_time": 6},
+            {"machine_id": "M_8", "processing_time": 57}
+          ]
+        }
+      ]
+    },
+    {
+      "job_id": "J_19",
+      "weight_class": -1,
+      "num_operations": 4,
+      "operations": [
+        {
+          "op_id": "O_19_01",
+          "num_eligible": 1,
+          "eligible_machines": [
+            {"machine_id": "M_3", "processing_time": 18}
+          ]
+        },
+        {
+          "op_id": "O_19_02",
+          "num_eligible": 2,
+          "eligible_machines": [
+            {"machine_id": "M_2", "processing_time": 29},
+            {"machine_id": "M_5", "processing_time": 3}
+          ]
+        },
+        {
+          "op_id": "O_19_03",
+          "num_eligible": 3,
+          "eligible_machines": [
+            {"machine_id": "M_1", "processing_time": 58},
+            {"machine_id": "M_5", "processing_time": 6},
+            {"machine_id": "M_8", "processing_time": 40}
+          ]
+        },
+        {
+          "op_id": "O_19_04",
+          "num_eligible": 4,
+          "eligible_machines": [
+            {"machine_id": "M_3", "processing_time": 14},
+            {"machine_id": "M_4", "processing_time": 51},
+            {"machine_id": "M_7", "processing_time": 37},
+            {"machine_id": "M_8", "processing_time": 22}
+          ]
+        }
+      ]
+    },
+    {
+      "job_id": "J_20",
+      "weight_class": -1,
+      "num_operations": 3,
+      "operations": [
+        {
+          "op_id": "O_20_01",
+          "num_eligible": 4,
+          "eligible_machines": [
+            {"machine_id": "M_2", "processing_time": 13},
+            {"machine_id": "M_3", "processing_time": 11},
+            {"machine_id": "M_6", "processing_time": 52},
+            {"machine_id": "M_7", "processing_time": 23}
+          ]
+        },
+        {
+          "op_id": "O_20_02",
+          "num_eligible": 1,
+          "eligible_machines": [
+            {"machine_id": "M_3", "processing_time": 7}
+          ]
+        },
+        {
+          "op_id": "O_20_03",
+          "num_eligible": 1,
+          "eligible_machines": [
+            {"machine_id": "M_6", "processing_time": 51}
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+    "metadata": {
+        "instance_name": "machine_advantage_hand",
+        "num_jobs": 2,
+        "num_machines": 2,
+        "description": "Hand-built edge case: machine_advantage_hand"
+    },
+    "jobs": [
+        {
+            "job_id": "J_01",
+            "operations": [
+                {
+                    "op_id": "J_01_O_01",
+                    "eligible_machines": [
+                        {
+                            "machine_id": "M_1",
+                            "processing_time": 1
+                        },
+                        {
+                            "machine_id": "M_2",
+                            "processing_time": 100
+                        }
+                    ]
+                },
+                {
+                    "op_id": "J_01_O_02",
+                    "eligible_machines": [
+                        {
+                            "machine_id": "M_1",
+                            "processing_time": 1
+                        },
+                        {
+                            "machine_id": "M_2",
+                            "processing_time": 100
+                        }
+                    ]
+                },
+                {
+                    "op_id": "J_01_O_03",
+                    "eligible_machines": [
+                        {
+                            "machine_id": "M_1",
+                            "processing_time": 1
+                        },
+                        {
+                            "machine_id": "M_2",
+                            "processing_time": 100
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "job_id": "J_02",
+            "operations": [
+                {
+                    "op_id": "J_02_O_01",
+                    "eligible_machines": [
+                        {
+                            "machine_id": "M_1",
+                            "processing_time": 100
+                        },
+                        {
+                            "machine_id": "M_2",
+                            "processing_time": 1
+                        }
+                    ]
+                },
+                {
+                    "op_id": "J_02_O_02",
+                    "eligible_machines": [
+                        {
+                            "machine_id": "M_1",
+                            "processing_time": 100
+                        },
+                        {
+                            "machine_id": "M_2",
+                            "processing_time": 1
+                        }
+                    ]
+                },
+                {
+                    "op_id": "J_02_O_03",
+                    "eligible_machines": [
+                        {
+                            "machine_id": "M_1",
+                            "processing_time": 100
+                        },
+                        {
+                            "machine_id": "M_2",
+                            "processing_time": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

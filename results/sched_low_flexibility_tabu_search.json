@@ -1,0 +1,569 @@
+[
+  {
+    "completion_time": 10.0,
+    "job_id": "J_03",
+    "machine_id": "M_4",
+    "op_id": "O_03_01",
+    "start_time": 0.0
+  },
+  {
+    "completion_time": 16.0,
+    "job_id": "J_04",
+    "machine_id": "M_3",
+    "op_id": "O_04_01",
+    "start_time": 0.0
+  },
+  {
+    "completion_time": 19.0,
+    "job_id": "J_07",
+    "machine_id": "M_5",
+    "op_id": "O_07_01",
+    "start_time": 0.0
+  },
+  {
+    "completion_time": 16.0,
+    "job_id": "J_12",
+    "machine_id": "M_2",
+    "op_id": "O_12_01",
+    "start_time": 0.0
+  },
+  {
+    "completion_time": 6.0,
+    "job_id": "J_14",
+    "machine_id": "M_1",
+    "op_id": "O_14_01",
+    "start_time": 0.0
+  },
+  {
+    "completion_time": 25.0,
+    "job_id": "J_05",
+    "machine_id": "M_1",
+    "op_id": "O_05_01",
+    "start_time": 6.0
+  },
+  {
+    "completion_time": 28.0,
+    "job_id": "J_13",
+    "machine_id": "M_3",
+    "op_id": "O_13_01",
+    "start_time": 16.0
+  },
+  {
+    "completion_time": 34.0,
+    "job_id": "J_08",
+    "machine_id": "M_1",
+    "op_id": "O_08_01",
+    "start_time": 25.0
+  },
+  {
+    "completion_time": 32.0,
+    "job_id": "J_01",
+    "machine_id": "M_3",
+    "op_id": "O_01_01",
+    "start_time": 28.0
+  },
+  {
+    "completion_time": 50.0,
+    "job_id": "J_01",
+    "machine_id": "M_2",
+    "op_id": "O_01_02",
+    "start_time": 32.0
+  },
+  {
+    "completion_time": 62.0,
+    "job_id": "J_13",
+    "machine_id": "M_3",
+    "op_id": "O_13_02",
+    "start_time": 32.0
+  },
+  {
+    "completion_time": 52.0,
+    "job_id": "J_04",
+    "machine_id": "M_1",
+    "op_id": "O_04_02",
+    "start_time": 34.0
+  },
+  {
+    "completion_time": 62.0,
+    "job_id": "J_06",
+    "machine_id": "M_2",
+    "op_id": "O_06_01",
+    "start_time": 50.0
+  },
+  {
+    "completion_time": 92.0,
+    "job_id": "J_02",
+    "machine_id": "M_3",
+    "op_id": "O_02_01",
+    "start_time": 62.0
+  },
+  {
+    "completion_time": 70.0,
+    "job_id": "J_06",
+    "machine_id": "M_4",
+    "op_id": "O_06_02",
+    "start_time": 62.0
+  },
+  {
+    "completion_time": 89.0,
+    "job_id": "J_12",
+    "machine_id": "M_2",
+    "op_id": "O_12_02",
+    "start_time": 62.0
+  },
+  {
+    "completion_time": 79.0,
+    "job_id": "J_07",
+    "machine_id": "M_4",
+    "op_id": "O_07_02",
+    "start_time": 70.0
+  },
+  {
+    "completion_time": 87.0,
+    "job_id": "J_08",
+    "machine_id": "M_4",
+    "op_id": "O_08_02",
+    "start_time": 79.0
+  },
+  {
+    "completion_time": 94.0,
+    "job_id": "J_03",
+    "machine_id": "M_4",
+    "op_id": "O_03_02",
+    "start_time": 87.0
+  },
+  {
+    "completion_time": 99.0,
+    "job_id": "J_04",
+    "machine_id": "M_2",
+    "op_id": "O_04_03",
+    "start_time": 89.0
+  },
+  {
+    "completion_time": 98.0,
+    "job_id": "J_02",
+    "machine_id": "M_5",
+    "op_id": "O_02_02",
+    "start_time": 92.0
+  },
+  {
+    "completion_time": 101.0,
+    "job_id": "J_13",
+    "machine_id": "M_3",
+    "op_id": "O_13_03",
+    "start_time": 92.0
+  },
+  {
+    "completion_time": 121.0,
+    "job_id": "J_02",
+    "machine_id": "M_4",
+    "op_id": "O_02_03",
+    "start_time": 98.0
+  },
+  {
+    "completion_time": 110.0,
+    "job_id": "J_08",
+    "machine_id": "M_5",
+    "op_id": "O_08_03",
+    "start_time": 98.0
+  },
+  {
+    "completion_time": 119.0,
+    "job_id": "J_04",
+    "machine_id": "M_1",
+    "op_id": "O_04_04",
+    "start_time": 99.0
+  },
+  {
+    "completion_time": 131.0,
+    "job_id": "J_13",
+    "machine_id": "M_2",
+    "op_id": "O_13_04",
+    "start_time": 101.0
+  },
+  {
+    "completion_time": 107.0,
+    "job_id": "J_15",
+    "machine_id": "M_3",
+    "op_id": "O_15_01",
+    "start_time": 101.0
+  },
+  {
+    "completion_time": 115.0,
+    "job_id": "J_09",
+    "machine_id": "M_3",
+    "op_id": "O_09_01",
+    "start_time": 107.0
+  },
+  {
+    "completion_time": 131.0,
+    "job_id": "J_12",
+    "machine_id": "M_3",
+    "op_id": "O_12_03",
+    "start_time": 115.0
+  },
+  {
+    "completion_time": 132.0,
+    "job_id": "J_05",
+    "machine_id": "M_1",
+    "op_id": "O_05_02",
+    "start_time": 119.0
+  },
+  {
+    "completion_time": 126.0,
+    "job_id": "J_14",
+    "machine_id": "M_4",
+    "op_id": "O_14_02",
+    "start_time": 121.0
+  },
+  {
+    "completion_time": 161.0,
+    "job_id": "J_09",
+    "machine_id": "M_3",
+    "op_id": "O_09_02",
+    "start_time": 131.0
+  },
+  {
+    "completion_time": 160.0,
+    "job_id": "J_12",
+    "machine_id": "M_2",
+    "op_id": "O_12_04",
+    "start_time": 131.0
+  },
+  {
+    "completion_time": 141.0,
+    "job_id": "J_06",
+    "machine_id": "M_1",
+    "op_id": "O_06_03",
+    "start_time": 132.0
+  },
+  {
+    "completion_time": 152.0,
+    "job_id": "J_13",
+    "machine_id": "M_1",
+    "op_id": "O_13_05",
+    "start_time": 141.0
+  },
+  {
+    "completion_time": 174.0,
+    "job_id": "J_14",
+    "machine_id": "M_1",
+    "op_id": "O_14_03",
+    "start_time": 152.0
+  },
+  {
+    "completion_time": 187.0,
+    "job_id": "J_15",
+    "machine_id": "M_2",
+    "op_id": "O_15_02",
+    "start_time": 160.0
+  },
+  {
+    "completion_time": 190.0,
+    "job_id": "J_10",
+    "machine_id": "M_3",
+    "op_id": "O_10_01",
+    "start_time": 161.0
+  },
+  {
+    "completion_time": 198.0,
+    "job_id": "J_13",
+    "machine_id": "M_1",
+    "op_id": "O_13_06",
+    "start_time": 174.0
+  },
+  {
+    "completion_time": 214.0,
+    "job_id": "J_09",
+    "machine_id": "M_2",
+    "op_id": "O_09_03",
+    "start_time": 187.0
+  },
+  {
+    "completion_time": 203.0,
+    "job_id": "J_15",
+    "machine_id": "M_4",
+    "op_id": "O_15_03",
+    "start_time": 187.0
+  },
+  {
+    "completion_time": 202.0,
+    "job_id": "J_04",
+    "machine_id": "M_3",
+    "op_id": "O_04_05",
+    "start_time": 190.0
+  },
+  {
+    "completion_time": 206.0,
+    "job_id": "J_05",
+    "machine_id": "M_1",
+    "op_id": "O_05_03",
+    "start_time": 198.0
+  },
+  {
+    "completion_time": 216.0,
+    "job_id": "J_14",
+    "machine_id": "M_3",
+    "op_id": "O_14_04",
+    "start_time": 202.0
+  },
+  {
+    "completion_time": 217.0,
+    "job_id": "J_05",
+    "machine_id": "M_4",
+    "op_id": "O_05_04",
+    "start_time": 206.0
+  },
+  {
+    "completion_time": 222.0,
+    "job_id": "J_04",
+    "machine_id": "M_2",
+    "op_id": "O_04_06",
+    "start_time": 214.0
+  },
+  {
+    "completion_time": 229.0,
+    "job_id": "J_09",
+    "machine_id": "M_5",
+    "op_id": "O_09_04",
+    "start_time": 214.0
+  },
+  {
+    "completion_time": 230.0,
+    "job_id": "J_11",
+    "machine_id": "M_3",
+    "op_id": "O_11_01",
+    "start_time": 216.0
+  },
+  {
+    "completion_time": 235.0,
+    "job_id": "J_02",
+    "machine_id": "M_4",
+    "op_id": "O_02_04",
+    "start_time": 217.0
+  },
+  {
+    "completion_time": 231.0,
+    "job_id": "J_04",
+    "machine_id": "M_2",
+    "op_id": "O_04_07",
+    "start_time": 222.0
+  },
+  {
+    "completion_time": 242.0,
+    "job_id": "J_07",
+    "machine_id": "M_3",
+    "op_id": "O_07_03",
+    "start_time": 230.0
+  },
+  {
+    "completion_time": 253.0,
+    "job_id": "J_11",
+    "machine_id": "M_5",
+    "op_id": "O_11_02",
+    "start_time": 230.0
+  },
+  {
+    "completion_time": 250.0,
+    "job_id": "J_15",
+    "machine_id": "M_4",
+    "op_id": "O_15_04",
+    "start_time": 235.0
+  },
+  {
+    "completion_time": 256.0,
+    "job_id": "J_04",
+    "machine_id": "M_3",
+    "op_id": "O_04_08",
+    "start_time": 242.0
+  },
+  {
+    "completion_time": 249.0,
+    "job_id": "J_07",
+    "machine_id": "M_1",
+    "op_id": "O_07_04",
+    "start_time": 242.0
+  },
+  {
+    "completion_time": 269.0,
+    "job_id": "J_06",
+    "machine_id": "M_1",
+    "op_id": "O_06_04",
+    "start_time": 249.0
+  },
+  {
+    "completion_time": 262.0,
+    "job_id": "J_07",
+    "machine_id": "M_2",
+    "op_id": "O_07_05",
+    "start_time": 249.0
+  },
+  {
+    "completion_time": 260.0,
+    "job_id": "J_14",
+    "machine_id": "M_4",
+    "op_id": "O_14_05",
+    "start_time": 250.0
+  },
+  {
+    "completion_time": 279.0,
+    "job_id": "J_01",
+    "machine_id": "M_3",
+    "op_id": "O_01_03",
+    "start_time": 256.0
+  },
+  {
+    "completion_time": 268.0,
+    "job_id": "J_04",
+    "machine_id": "M_5",
+    "op_id": "O_04_09",
+    "start_time": 256.0
+  },
+  {
+    "completion_time": 269.0,
+    "job_id": "J_11",
+    "machine_id": "M_4",
+    "op_id": "O_11_03",
+    "start_time": 260.0
+  },
+  {
+    "completion_time": 299.0,
+    "job_id": "J_06",
+    "machine_id": "M_5",
+    "op_id": "O_06_05",
+    "start_time": 269.0
+  },
+  {
+    "completion_time": 297.0,
+    "job_id": "J_12",
+    "machine_id": "M_3",
+    "op_id": "O_12_05",
+    "start_time": 279.0
+  },
+  {
+    "completion_time": 304.0,
+    "job_id": "J_10",
+    "machine_id": "M_3",
+    "op_id": "O_10_02",
+    "start_time": 297.0
+  },
+  {
+    "completion_time": 322.0,
+    "job_id": "J_12",
+    "machine_id": "M_1",
+    "op_id": "O_12_06",
+    "start_time": 297.0
+  },
+  {
+    "completion_time": 313.0,
+    "job_id": "J_14",
+    "machine_id": "M_3",
+    "op_id": "O_14_06",
+    "start_time": 304.0
+  },
+  {
+    "completion_time": 338.0,
+    "job_id": "J_14",
+    "machine_id": "M_3",
+    "op_id": "O_14_07",
+    "start_time": 313.0
+  },
+  {
+    "completion_time": 335.0,
+    "job_id": "J_07",
+    "machine_id": "M_1",
+    "op_id": "O_07_06",
+    "start_time": 322.0
+  },
+  {
+    "completion_time": 352.0,
+    "job_id": "J_12",
+    "machine_id": "M_2",
+    "op_id": "O_12_07",
+    "start_time": 322.0
+  },
+  {
+    "completion_time": 355.0,
+    "job_id": "J_13",
+    "machine_id": "M_1",
+    "op_id": "O_13_07",
+    "start_time": 335.0
+  },
+  {
+    "completion_time": 361.0,
+    "job_id": "J_02",
+    "machine_id": "M_3",
+    "op_id": "O_02_05",
+    "start_time": 338.0
+  },
+  {
+    "completion_time": 360.0,
+    "job_id": "J_11",
+    "machine_id": "M_2",
+    "op_id": "O_11_04",
+    "start_time": 352.0
+  },
+  {
+    "completion_time": 372.0,
+    "job_id": "J_11",
+    "machine_id": "M_2",
+    "op_id": "O_11_05",
+    "start_time": 360.0
+  },
+  {
+    "completion_time": 377.0,
+    "job_id": "J_06",
+    "machine_id": "M_3",
+    "op_id": "O_06_06",
+    "start_time": 361.0
+  },
+  {
+    "completion_time": 381.0,
+    "job_id": "J_09",
+    "machine_id": "M_2",
+    "op_id": "O_09_05",
+    "start_time": 372.0
+  },
+  {
+    "completion_time": 390.0,
+    "job_id": "J_14",
+    "machine_id": "M_3",
+    "op_id": "O_14_08",
+    "start_time": 377.0
+  },
+  {
+    "completion_time": 411.0,
+    "job_id": "J_07",
+    "machine_id": "M_2",
+    "op_id": "O_07_07",
+    "start_time": 381.0
+  },
+  {
+    "completion_time": 399.0,
+    "job_id": "J_09",
+    "machine_id": "M_4",
+    "op_id": "O_09_06",
+    "start_time": 381.0
+  },
+  {
+    "completion_time": 403.0,
+    "job_id": "J_06",
+    "machine_id": "M_3",
+    "op_id": "O_06_07",
+    "start_time": 390.0
+  },
+  {
+    "completion_time": 405.0,
+    "job_id": "J_14",
+    "machine_id": "M_5",
+    "op_id": "O_14_09",
+    "start_time": 390.0
+  },
+  {
+    "completion_time": 419.0,
+    "job_id": "J_04",
+    "machine_id": "M_3",
+    "op_id": "O_04_10",
+    "start_time": 403.0
+  }
+]

@@ -1,0 +1,4 @@
+# Direct third-party imports used by analysis and visualization scripts.
+numpy>=1.26,<3
+pandas>=2.2,<4
+matplotlib>=3.9,<4
